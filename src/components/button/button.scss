@@ -1,0 +1,14 @@
+@import '../../commons/styles.scss';
+
+.btn {
+    @include flexbox(center, center, nowrap, row);
+    cursor: pointer;
+    border: 0;
+    padding: 1rem 1.5rem;
+    height: 3rem;
+    outline: none;
+    border-radius: $border-radius;
+    background-color: $secondary-color;
+}
+
+

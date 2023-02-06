@@ -1,0 +1,20 @@
+@import '../../../../commons/styles.scss';
+
+.admin-layout-header {
+    min-height: 50px;
+    color: white;
+
+    @include flexbox(center, space-between, nowrap, row);
+
+    .admin-layout-header-tools {
+        @include flexbox(flex-start, flex-start, nowrap, row);
+        li {
+            margin-left: 10px;
+        }
+    }
+
+    .admin-layout-header-search {
+        @include flexbox(center, center, nowrap, row);
+        
+    }
+}
